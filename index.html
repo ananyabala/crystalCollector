@@ -12,6 +12,7 @@
         crossorigin="anonymous">
 
 
+
 </head>
 
 <body>
@@ -68,8 +69,8 @@
                     <div class="col">
                         <div class="jumbotron jumbotron-fluid" id="jumbotron">
                             <div class="container">
-                                <p class="lead">Wins:</p>
-                                <p class="lead">Losses:</p>
+                                <p class="lead" id="win-counter">Wins:</p>
+                                <p class="lead" id="loss-counter">Losses:</p>
                             </div>
 
                         </div>
@@ -81,19 +82,19 @@
                 </div>
                 <!--This is where the crystal images will be -->
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-3" id="crystal1">
                         <img src="assets/images/crystal1.png" width="100px" height="100px" alt="">
 
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="crystal2">
                         <img src="assets/images/crystal2.png" width="100px" height="100px" alt="">
 
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="crystal3">
                         <img src="assets/images/crystal3.png" width="100px" height="100px" alt="">
 
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="crystal4">
                         <img src="assets/images/crystal4.png" width="100px" height="100px" alt="">
 
                     </div>
@@ -110,7 +111,7 @@
                 <!-- Print number that is total score -->
                 <div class="jumbotron jumbotron-fluid" id="jumbotron">
                     <div class="container">
-                        <p class="lead">This is where the total score will be displayed.</p>
+                        <p class="lead" id="total">This is where the total score will be displayed.</p>
                     </div>
 
                 </div>
@@ -124,7 +125,8 @@
 
     </div>
     <script src="assets/javascript/game.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+
 
 </body>
 
