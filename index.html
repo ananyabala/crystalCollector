@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- gamecontainer will gamecontainer all the game info and restrict it to 50% of the page width -->
+    <div class="gamecontainer">
+        <div class="row">
+            <div class="col-6">
+                <!-- Heading -->
+                <div class="jumbotron jumbotron-fluid" id="title">
+                    <div class="container">
+                        <h1 class="display-4">Crystals Collector</h1>
+
+                    </div>
+                </div>
+                <!-- Instructions -->
+                <div class="jumbotron jumbotron-fluid" id="jumbotron">
+                    <div class="container">
+                        <h1 class="display-4" id="heading">Instructions</h1>
+                        <p class="lead">
+                            <p>
+                                You will be given a random number at the start of the game.
+                            </p>
+                            <p>
+                                There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
+                            </p>
+                            <p>
+                                You win the game by matching your total score to a random number. You lose the game if your total score goes above the random
+                                number.
+                            </p>
+                            <p>
+                                The value of each crystal is hidden from you until you click on it.
+                            </p>
+
+                            <p>
+                                Each time when the game starts, the game will change the values of each crystal.
+                            </p>
+                        </p>
+                    </div>
+                </div>
+                <!--This is where the crystal images will be -->
+                <div class="row">
+                    <div class="col-9">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="assets/images/crystal1.png" width="100px" height="100px" alt="">
+
+                            </div>
+                            <div class="col-3">
+                                <img src="assets/images/crystal2.png" width="100px" height="100px" alt="">
+
+                            </div>
+                            <div class="col-3">
+                                <img src="assets/images/crystal3.png" width="100px" height="100px" alt="">
+
+                            </div>
+                            <div class="col-3">
+                                <img src="assets/images/crystal4.png" width="100px" height="100px" alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="jumbotron jumbotron-fluid" id="jumbotron">
+                            <div class="container">
+                                <p class="lead">Wins:</p>
+                                <p class="lead">Losses:</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <br>
+
+                </div>
+                <!-- Print heading "Your Total Score is:" -->
+                <div class="jumbotron jumbotron-fluid" id="jumbotron">
+                    <div class="container">
+                        <h1 class="display-4" id="heading">Your total score is:</h1>
+
+                    </div>
+                </div>
+
+                <!-- Print number that is total score -->
+                <div class="jumbotron jumbotron-fluid" id="jumbotron">
+                    <div class="container">
+                        <p class="lead">This is where the total score will be displayed.</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>
