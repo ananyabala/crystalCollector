@@ -8,9 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="assets/javascript/game.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
@@ -52,29 +53,19 @@
                         </p>
                     </div>
                 </div>
-                <!--This is where the crystal images will be -->
+
                 <div class="row">
                     <div class="col-9">
-                        <div class="row">
-                            <div class="col-3">
-                                <img src="assets/images/crystal1.png" width="100px" height="100px" alt="">
 
-                            </div>
-                            <div class="col-3">
-                                <img src="assets/images/crystal2.png" width="100px" height="100px" alt="">
-
-                            </div>
-                            <div class="col-3">
-                                <img src="assets/images/crystal3.png" width="100px" height="100px" alt="">
-
-                            </div>
-                            <div class="col-3">
-                                <img src="assets/images/crystal4.png" width="100px" height="100px" alt="">
+                        <div class="jumbotron jumbotron-fluid" id="jumbotron">
+                            <div class="container">
+                                <h1 class="display-4" id="heading">This is where the target number will be printed</h1>
 
                             </div>
                         </div>
-
                     </div>
+                    <!-- Print wins & losses -->
+
                     <div class="col">
                         <div class="jumbotron jumbotron-fluid" id="jumbotron">
                             <div class="container">
@@ -89,6 +80,26 @@
                     <br>
 
                 </div>
+                <!--This is where the crystal images will be -->
+                <div class="row">
+                    <div class="col-3">
+                        <img src="assets/images/crystal1.png" width="100px" height="100px" alt="">
+
+                    </div>
+                    <div class="col-3">
+                        <img src="assets/images/crystal2.png" width="100px" height="100px" alt="">
+
+                    </div>
+                    <div class="col-3">
+                        <img src="assets/images/crystal3.png" width="100px" height="100px" alt="">
+
+                    </div>
+                    <div class="col-3">
+                        <img src="assets/images/crystal4.png" width="100px" height="100px" alt="">
+
+                    </div>
+                </div>
+                <br>
                 <!-- Print heading "Your Total Score is:" -->
                 <div class="jumbotron jumbotron-fluid" id="jumbotron">
                     <div class="container">
