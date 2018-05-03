@@ -107,7 +107,7 @@ function roundComplete() {
         winCounter++;
 
         // Update the win counter in the HTML
-        document.getElementById("win-counter").innerHTML = winCounter;
+        document.getElementById("win-counter").innerHTML = "Wins: " + winCounter;
 
         // Restart the game
         startGame();
@@ -120,7 +120,7 @@ function roundComplete() {
         lossCounter++;
 
         // Update the loss counter in the HTML
-        document.getElementById("loss-counter").innerHTML = lossCounter;
+        document.getElementById("loss-counter").innerHTML = "Losses: " + lossCounter;
 
         // Restart the game
         startGame();
